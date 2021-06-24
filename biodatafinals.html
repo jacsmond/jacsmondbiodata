@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bio Data Creation Form</title>
+</head>
+<body bgcolor="black">
+     <form method="GET">
+     	<h1>BIO DATA</h1>
+     	<table cellpadding="8" bgcolor="yellow">
+     		<tr>
+     			<td>First Name:</td>
+     			<td><input type="text" name="fname" autofocus="autofocus" required="required"></td>
+     		</tr>
+     		<tr>
+     			<td>Middle Name:</td>
+     			<td><input type="text" name="mname" required="required"></td>
+     		</tr>
+     		<tr>
+     			<td>Last Name:</td>
+                <td><input type="text" name="lname"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="date" name="DOB"></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="age"></td>
+            </tr>
+            <tr>
+                <td>Father's Name/Mother's Name:</td>
+                <td><input type="text" name="pname"></td>
+            </tr>
+            <tr>
+                <td>Job Title:</td>
+                <td><input type="text" name="job_title"></td>
+            </tr>
+            <tr>
+                <td>Education Qualification</td>
+                <td><select name="Qualification">
+                    <option>Select</option>
+                    <option>10<sup>th</sup></option>
+                    <option>12th</option>
+                    <option>Graduation</option>
+                </select></td>
+            </tr>
+            <tr>
+               <td>Work Experience:</td>
+               <td><textarea name="work experience" placeholder="Input your work experience here:">
+               </textarea></td>
+            </tr>
+            <tr>
+               <td>Skills and Interest</td>
+               <td><textarea name="skills and interest" placeholder="Input your skills and interest here:"></textarea></td>
+            </tr>
+            <tr>
+            	<td>Phone:</td>
+            	<td><input type="Email" name="email" placeholder="abc@gmail.com"></td>
+            </tr>
+            <tr>
+            	<td>Upload Photo:</td>
+            	<td><input type="file" name="photo" accept="image/*"></td>
+            </tr>
+        </table><br>
+        <input type="submit" name="create" value="create" formaction="form_link.html">
+    </form>
+</body>
+</html>
